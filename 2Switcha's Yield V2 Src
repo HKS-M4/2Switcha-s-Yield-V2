@@ -6352,7 +6352,7 @@ local TeleportCheck = false
 Players.LocalPlayer.OnTeleport:Connect(function(State)
 	if KeepInfYield and (not TeleportCheck) and queueteleport then
 		TeleportCheck = true
-		queueteleport("loadstring(game:HttpGet('http://gist.githubusercontent.com/HKS-M4/9bb3107656dc3d40f89be87b1da68129/raw/86eb130e2db95eab1dded915aba6e7c562ef93b2/2Switcha%2520Yield%2520V1'))()")
+		queueteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/HKS-M4/2Switcha-s-Yield-V2/refs/heads/main/2Switcha's%20Yield%20V2%20Src'))()")
 	end
 end)
 
